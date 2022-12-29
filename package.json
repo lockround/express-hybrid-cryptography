@@ -1,0 +1,14 @@
+{
+  "name": "express-hybrid-cryptography",
+  "version": "1.0.0",
+  "description": "ExpressJS middleware for hybrid cryptography",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hybrid-cryptography"
+  ],
+  "author": "Shubham Tiwari",
+  "license": "MIT"
+}
