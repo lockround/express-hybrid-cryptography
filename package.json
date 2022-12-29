@@ -1,14 +1,28 @@
 {
   "name": "express-hybrid-cryptography",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "ExpressJS middleware for hybrid cryptography",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release",
+    "commit":"git-cz"
   },
   "keywords": [
     "hybrid-cryptography"
   ],
   "author": "Shubham Tiwari",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lockround/express-hybrid-cryptography.git"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^19.0.5"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
+  }
 }
